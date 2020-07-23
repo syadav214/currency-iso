@@ -1,0 +1,31 @@
+{
+  "name": "currency-iso",
+  "version": "1.0.0",
+  "description": "a javascript module to list and work on currency codes based on the ISO 4217 standard.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syadav214/currency-iso.git"
+  },
+  "keywords": [
+    "currency",
+    "countries",
+    "iso",
+    "javascript",
+    "js",
+    "nodejs",
+    "node"
+  ],
+  "author": "Santosh Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syadav214/currency-iso/issues"
+  },
+  "homepage": "https://github.com/syadav214/currency-iso#readme",
+  "devDependencies": {
+    "tap": "^14.2.0"
+  }
+}
