@@ -10,7 +10,7 @@ const getData = (code, field) => {
 
 exports.getISOCode = (code) => getData(code, 'isoCode');
 
-exports.getFractionDigits = (code) => getData(code, 'fractionDigits');
+exports.getFractionDigit = (code) => getData(code, 'fractionDigit');
 
 exports.getCurrencyName = (code) => getData(code, 'currencyName');
 

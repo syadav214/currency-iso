@@ -4,11 +4,11 @@ a javascript module to list and work on currency codes based on the ISO 4217 sta
 ## Example
 
 ``` js
-const { getISOCode, getFractionDigits } = require('currency-iso');
+const { getISOCode, getFractionDigit } = require('currency-iso');
 
 console.log(getISOCode('EUR')); // 978
-console.log(getFractionDigits('EUR')); // 2
-console.log(getFractionDigits('Nothing')); // undefined
+console.log(getFractionDigit('EUR')); // 2
+console.log(getFractionDigit('Nothing')); // undefined
 ```
 
 ### getISOCode(code)
@@ -17,10 +17,10 @@ Expects a currency code.
 Returns the ISO Code for that currency code.  
 If not found, it returns `undefined`.  
 
-### getFractionDigits(code)
+### getFractionDigit(code)
 
 Expects a currency code.
-Returns the Fraction Digits for that currency code. 
+Returns the Fraction Digit for that currency code. 
 If not found, it returns `undefined`.  
 
 ### getCurrencyName(code)

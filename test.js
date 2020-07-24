@@ -1,7 +1,7 @@
 const currencyISO = require('./index');
-console.log(currencyISO.getISOCode('eur'))
-console.log(currencyISO.getFractionDigits('eur'))
-console.log(currencyISO.getCurrencyName('eur'))
-console.log(currencyISO.getCountriesUsingTheCurrency('eur'))
-//console.log(currencyISO.getFullInformation('eur'))
+console.log(currencyISO.getISOCode('EUR'))
+console.log(currencyISO.getFractionDigit('EUR'))
+console.log(currencyISO.getCurrencyName('EUR'))
+console.log(currencyISO.getCountriesUsingTheCurrency('EUR'))
+//console.log(currencyISO.getFullInformation('EUR'))
 //console.log(currencyISO.getAllCurrencies())
