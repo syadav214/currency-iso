@@ -20,25 +20,25 @@ If not found, it returns `undefined`.
 ### getFractionDigit(code)
 
 Expects a currency code.
-Returns the Fraction Digit for that currency code. 
+Returns the Fraction Digit for that currency code.          
 If not found, it returns `undefined`.  
 
 ### getCurrencyName(code)
 
 Expects a currency code.
-Returns the Currency Name for that currency code. 
+Returns the Currency Name for that currency code.           
 If not found, it returns `undefined`. 
 
 ### getCountriesUsingTheCurrency(code)
 
 Expects a currency code.
-Returns an array of Countries using the currency code. 
+Returns an array of Countries using the currency code.       
 If not found, it returns `undefined`. 
 
 ### getFullInformation(code)
 
 Expects a currency code.
-Returns the information for that currency code. 
+Returns the information for that currency code.             
 If not found, it returns `undefined`. 
 
 ### getAllCurrencies()
