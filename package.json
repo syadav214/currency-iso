@@ -1,6 +1,6 @@
 {
   "name": "currency-iso",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a javascript module to list and work on currency codes based on the ISO 4217 standard.",
   "main": "index.js",
   "scripts": {

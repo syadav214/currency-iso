@@ -9,12 +9,19 @@ const { getISOCode, getFractionDigit } = require('currency-iso');
 console.log(getISOCode('EUR')); // 978
 console.log(getFractionDigit('EUR')); // 2
 console.log(getFractionDigit('Nothing')); // undefined
+console.log(getHtmlCode('EUR')); //&#x20AC;
 ```
 
 ### getISOCode(code)
 
 Expects a currency code.
 Returns the ISO Code for that currency code.  
+If not found, it returns `undefined`.  
+
+### getHtmlCode(code)
+
+Expects a currency code.
+Returns the html code for that currency code.          
 If not found, it returns `undefined`.  
 
 ### getFractionDigit(code)
